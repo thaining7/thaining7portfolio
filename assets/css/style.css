@@ -203,6 +203,10 @@ footer {
 
 /* contact page */
 
+.card {
+    width: 360px;
+}
+
 /* #form-content ul {
     margin-bottom: 20px;
 } */
