@@ -125,7 +125,7 @@ nav a:first-child {
     margin-top: 10px;
     margin-right: 25px;
     margin-bottom: 40px;
-    transform: rotate(90deg); 
+    /* transform: rotate(90deg);  */
 }
 
 /* footer */
@@ -173,7 +173,7 @@ footer {
     width: 100%;
     border: 0 none;
     /* opacity: 0.2; */
-  }
+}
 
 .portimages h3 {
     position: absolute;
