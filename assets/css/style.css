@@ -141,7 +141,8 @@ footer {
     position: fixed;
     z-index: 99;
     bottom: 0;
-    width: 100%
+    width: 100%;
+    opacity: 0.8;
 }
 
 /* #aboutme {
@@ -200,6 +201,9 @@ footer {
 
 /* contact page */
 
-.card {
+/* .card {
     max-width: 360px;
-}
+} */
+/* .card-action {
+    font-size: 15px;
+} */
