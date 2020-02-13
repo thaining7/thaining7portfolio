@@ -13,8 +13,8 @@ body {
 /* general */
 
 .container {
-    width: 100%;
-    max-width: 960px;
+    /* width: 100%; */
+    /* max-width: 960px; */
     margin: 0 auto;
     clear: both;
 }
@@ -104,9 +104,9 @@ nav a:first-child {
 /* main-content */
 
 #main-content {
-    float: left;
+    /* float: left; */
     margin: 0 0 40%;
-    max-width:960px;
+    /* max-width:960px; */
     border: 1px;
     border-style: solid;
     border-color: #cccccc;
@@ -118,14 +118,11 @@ nav a:first-child {
     min-height: calc(100vh - 70px);
 }
 
-#pic {
+#main-pic {
     float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-    margin-bottom: 40px;
-    /* transform: rotate(90deg);  */
+    max-width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 /* footer */
@@ -156,26 +153,26 @@ footer {
 
 /* portfolio page */
 
-.portimages {
+/* .portimages {
     position: relative;
     float: left;
-    /* width: 200px; */
-    /* height: 300px; */
-    /* margin: 30px; */
+    width: 200px;
+    height: 300px;
+    margin: 30px;
     overflow: auto;
-}
+} */
 
-.portimages:nth-child(even) {
+/* .portimages:nth-child(even) {
     margin-right: 30px;
-}
+} */
 
-.portimages img {
+/* .portimages img {
     width: 100%;
     border: 0 none;
-    /* opacity: 0.2; */
-}
+    opacity: 0.2;
+} */
 
-.portimages h3 {
+/* .portimages h3 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -189,58 +186,19 @@ footer {
     background: #4aaaa5;
     border-bottom: 0;
     opacity: 0.9;
-}
+} */
 
-.portimages h4 {
+/* .portimages h4 {
     position: absolute;
     bottom: 30px;
     width: 100%;
     text-align: center;
     font-size: 16px;
     padding: 10px;
-    /* background: #4aaaa5; */
-}
+} */
 
 /* contact page */
 
 .card {
-    width: 360px;
+    max-width: 360px;
 }
-
-/* #form-content ul {
-    margin-bottom: 20px;
-} */
-
-/* #form-content li {
-    margin-bottom: 10px;
-} */
-
-/* label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-} */
-
-/* input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #dddddd;
-} */
-
-/* textarea {
-  height: 200px;
-} */
-
-/* input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #ffffff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
-} */
