@@ -101,21 +101,20 @@ nav a:first-child {
     border-left: 0 none;
 }
 
-/* main-content */
+/* main */
 
 #main-content {
-    /* float: left; */
-    margin: 0 0 40%;
-    /* max-width:960px; */
     border: 1px;
     border-style: solid;
     border-color: #cccccc;
     padding: 20px;
+    padding-bottom: 30px;
 }
 
 #main-container {
+    position: relative;
     padding-top: 130px;
-    min-height: calc(100vh - 70px);
+    min-height: 100vh;
 }
 
 #main-pic {
@@ -128,7 +127,6 @@ nav a:first-child {
 /* footer */
 
 footer {
-    padding: 30px 0;
     clear: both;
     text-align: center;
     height: 30px;
@@ -138,72 +136,9 @@ footer {
     border-top-color: #4aaaa5;
     color: white;
     font-size: 12px;
-    position: fixed;
+    position: absolute;
     z-index: 99;
     bottom: 0;
     width: 100%;
     opacity: 0.8;
 }
-
-/* #aboutme {
-    color: #4aaaa5;
-    font-size: 20px;
-    border-bottom: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
-} */
-
-/* portfolio page */
-
-/* .portimages {
-    position: relative;
-    float: left;
-    width: 200px;
-    height: 300px;
-    margin: 30px;
-    overflow: auto;
-} */
-
-/* .portimages:nth-child(even) {
-    margin-right: 30px;
-} */
-
-/* .portimages img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.2;
-} */
-
-/* .portimages h3 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 0;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 30px;
-    color: #ffffff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-    opacity: 0.9;
-} */
-
-/* .portimages h4 {
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    padding: 10px;
-} */
-
-/* contact page */
-
-/* .card {
-    max-width: 360px;
-} */
-/* .card-action {
-    font-size: 15px;
-} */
