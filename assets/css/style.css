@@ -107,7 +107,7 @@ nav a:first-child {
     border: 1px;
     border-style: solid;
     border-color: #cccccc;
-    padding: 20px;
+    padding: 9px;
     padding-bottom: 30px;
 }
 
@@ -119,9 +119,11 @@ nav a:first-child {
 
 #main-pic {
     float: left;
-    max-width: 200px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    max-width: 312px;
+    margin-right: 18px;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    border-radius: 6px;
 }
 
 /* footer */
