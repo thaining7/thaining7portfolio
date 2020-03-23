@@ -136,6 +136,7 @@ footer {
     border-top-color: #4aaaa5;
     color: white;
     font-size: 12px;
+    line-height: 27px;
     position: absolute;
     z-index: 99;
     bottom: 0;
